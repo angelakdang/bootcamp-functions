@@ -3,7 +3,7 @@
 data_set_id: 4099590487097269  # uc:001:oee:ds
 tenant_id: 16e3985b-ebe8-4e24-9da4-933e21a9fc81
 cdf_cluster: westeurope-1
-cdf_project: bootcamp-24-test
+cdf_project: cdf-bootcamp-24-test
 env_vars: {
   "COGNITE_BASE_URL": "https://westeurope-1.cognitedata.com",
   "COGNITE_PROJECT": "bootcamp-24-test",
