@@ -1,6 +1,11 @@
 # Configuration file for dev environment. Will apply to all functions, but will be overwritten by
 # configurations files in specific function folder.
-data_set_id: <DATE SET ID>
+data_set_id: 7999318063129076  # uc:001:oee:ds
 tenant_id: 16e3985b-ebe8-4e24-9da4-933e21a9fc81
 cdf_cluster: westeurope-1
-cdf_project: cdf-bootcamp-<n>-prod
+cdf_project: bootcamp-24-prod
+env_vars: {
+  "COGNITE_BASE_URL": "https://westeurope-1.cognitedata.com",
+  "COGNITE_PROJECT": "bootcamp-24-test",
+  "COGNITE_TOKEN_URL": "https://login.microsoftonline.com/16e3985b-ebe8-4e24-9da4-933e21a9fc81/oauth2/v2.0/token",
+}
